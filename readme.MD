@@ -41,15 +41,15 @@ Once `azd` is installed on your machine, you can deploy this template using the 
     
 1. Once the deployment is complete, you can go to the URL of the container app. Then, start setting up the application with Open WebUI. 
 
-![Deepseek-R1](images\deepseekr1-configure01.png)
+![Deepseek-R1](images/deepseekr1-configure01.png)
 
 Next, under the ‘Select a model’ option, look for DeepSeek-R1 as shown below:
 
-![Deepseek-R1](images\deepseekr1-configure02.png)
+![Deepseek-R1](images/deepseekr1-configure02.png)
 
 Select DeepSeek-R1
 
-![Deepseek-R1](images\deepseekr1-configure03.png)
+![Deepseek-R1](images/deepseekr1-configure03.png)
 
 Now you’re ready to start using it!
 
