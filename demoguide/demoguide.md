@@ -33,7 +33,7 @@ Provide a bullet list of the Resource Group and all deployed resources with name
 
 <add a screenshot of the deployed Resource Group with resources>
 
-<img src="https://raw.githubusercontent.com/daveRendon/azd-deepseek-r1-on-azure-container-apps/images/deepseekr1-rg.png" alt="Deepseek-R1 Resource Group" style="width:70%;">
+<img src="https://raw.githubusercontent.com/daveRendon/azd-deepseek-r1-on-azure-container-apps/refs/heads/main/images/deepseekr1-rg.png" alt="Deepseek-R1 Resource Group" style="width:70%;">
 <br></br>
 
 <br></br>
@@ -42,15 +42,15 @@ Provide a bullet list of the Resource Group and all deployed resources with name
 
 1. Once the deployment is complete, you can go to the URL of the container app. Then, start setting up the application with Open WebUI. 
 
-![Deepseek-R1](images/deepseekr1-configure01.png)
+![Deepseek-R1](https://raw.githubusercontent.com/daveRendon/azd-deepseek-r1-on-azure-container-apps/refs/heads/main/images/deepseekr1-configure01.png)
 
 Next, under the ‘Select a model’ option, look for DeepSeek-R1 as shown below:
 
-![Deepseek-R1](images/deepseekr1-configure02.png)
+![Deepseek-R1](https://raw.githubusercontent.com/daveRendon/azd-deepseek-r1-on-azure-container-apps/refs/heads/main/images/deepseekr1-configure02.png)
 
 Select DeepSeek-R1
 
-![Deepseek-R1](images/deepseekr1-configure03.png)
+![Deepseek-R1](https://raw.githubusercontent.com/daveRendon/azd-deepseek-r1-on-azure-container-apps/refs/heads/main/images/deepseekr1-configure03.png)
 
 Now you’re ready to start using it!
 
