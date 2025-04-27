@@ -1,4 +1,45 @@
-# Deploy Deepseek-r1 on Azure Container Apps 
+# Deploy Deepseek-r1 on Azure Container Apps
+
+This repo contains a demo for running Deepseek-R1 on Azure Container Apps with Serverless GPUs.
+
+Azure Container Apps is a serverless platform that minimizes infrastructure management. Instead of handling server configurations, container orchestration, and deployment complexities, Container Apps provides the server resources to keep your containerized applications secure and stable.
+
+Azure Container Apps can now be run with serverless GPUs, so you can directly access GPU compute resources without manually configuring infrastructure — just deploy your AI model’s image.
+
+You will get prompted during the AZD deployment step for the region to deploy this scenario. The preferred location is WestUS3.
+
+This scenario can be deployed to Azure using the [Azure Developer CLI - AZD](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/overview?WT.mc_id=AZ-MVP-5000671). 
+
+💪 This template scenario is part of the larger **[Microsoft Trainer Demo Deploy Catalog](https://aka.ms/trainer-demo-deploy/?WT.mc_id=AZ-MVP-5000671)**.
+
+## ⬇️ Installation
+- [Azure Developer CLI - AZD](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?WT.mc_id=AZ-MVP-5000671)
+    - When installing AZD, the above the following tools will be installed on your machine as well, if not already installed:
+        - [GitHub CLI](https://cli.github.com?WT.mc_id=AZ-MVP-5000671)
+        - [Bicep CLI](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/install?WT.mc_id=AZ-MVP-5000671)
+    - You need Owner or Contributor access permissions to an Azure Subscription to  deploy the scenario.
+
+## 🚀 Deploying the scenario in 3 easy steps:
+
+1. From within a new folder on your machine, run `azd init` to initialize the deployment.
+```
+azd init -t petender/azd-addsvm
+```
+2. Next, run `azd up` to trigger an actual deployment.
+```
+azd up
+```
+3. If you want to delete the scenario from your Azure subscription, use `azd down`
+```
+azd down --purge --force
+```
+
+⏩ Note: running `azd down` deletes the RG and Resources, but will keep the artifacts on your local machine.
+
+## What is the demo scenario about?
+
+
+## Deploy Deepseek-r1 on Azure Container Apps 
 
 👉 https://blog.azinsider.net/deploy-deepseek-r1-on-azure-container-apps-using-bicep-language-5f495724959e?source=friends_link&sk=6b78d1553b2edd0cf5115aee1844fe59
 
@@ -52,6 +93,3 @@ Select DeepSeek-R1
 ![Deepseek-R1](images/deepseekr1-configure03.png)
 
 Now you’re ready to start using it!
-
-
-Use the `azd down --purge` command to delete the resources.
