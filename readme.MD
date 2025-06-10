@@ -23,7 +23,7 @@ This scenario can be deployed to Azure using the [Azure Developer CLI - AZD](htt
 
 1. From within a new folder on your machine, run `azd init` to initialize the deployment.
 ```
-azd init -t petender/azd-addsvm
+azd init -t daverendon/azd-deepseek-r1-on-azure-container-apps
 ```
 2. Next, run `azd up` to trigger an actual deployment.
 ```
