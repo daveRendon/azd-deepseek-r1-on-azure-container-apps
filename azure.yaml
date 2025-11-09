@@ -4,9 +4,9 @@
 # To learn more about the azure.yaml file, visit https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/azd-schema
 
 # Name of the application.
-name: tdd-deepseek-r1-on-azure-container-apps
+name: tdd-azd-deepseek-r1-on-azure-container-apps
 metadata:
-  template: tdd-deepseek-r1-on-azure-container-apps@1.0.0
+  template: tdd-azd-deepseek-r1-on-azure-container-apps@1.0.0
 infra:
   provider: bicep
 services:
